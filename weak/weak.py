@@ -31,9 +31,9 @@ sampling = 0
 
 reso_scheme = int(sys.argv[3])
 if reso_scheme == 0:
-    dx_240 = 1e-4 # dx for 10 nodes and 24 threads/process, total time of ~3-4 min (explicit scheme)
+    dx_240 = 2e-5 # dx for 10 nodes and 24 threads/process, total time of ~3-4 min (explicit scheme)
 elif reso_scheme == 1:
-    dx_240 = 2.5e-5 # (implicit scheme)
+    dx_240 = 6e-5 # (implicit scheme)
 
 nProcess = int(sys.argv[1])
 param_file = sys.argv[2]

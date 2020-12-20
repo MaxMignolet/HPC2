@@ -1,0 +1,58 @@
+calling the python script
+*** running with 24 threads/process, 3 processes and dx = 3.651483716701108e-05 ***
+Number of processes: 3
+Number of threads/process 24
+N = 27387
+T = 101
+Elapsed wall-time (computational part): 51.5537 seconds
+Elapsed wall-time (total): 60.2953 seconds
+*** running with 20 threads/process, 3 processes and dx = 4e-05 ***
+Number of processes: 3
+Number of threads/process 20
+N = 25000
+T = 101
+Elapsed wall-time (computational part): 51.6562 seconds
+Elapsed wall-time (total): 58.9410 seconds
+*** running with 16 threads/process, 3 processes and dx = 4.4721359549995795e-05 ***
+Number of processes: 3
+Number of threads/process 16
+N = 22361
+T = 101
+Elapsed wall-time (computational part): 46.0345 seconds
+Elapsed wall-time (total): 51.8697 seconds
+*** running with 12 threads/process, 3 processes and dx = 5.163977794943223e-05 ***
+Number of processes: 3
+Number of threads/process 12
+N = 19365
+T = 101
+Elapsed wall-time (computational part): 43.5405 seconds
+Elapsed wall-time (total): 47.9332 seconds
+*** running with 8 threads/process, 3 processes and dx = 6.324555320336759e-05 ***
+Number of processes: 3
+Number of threads/process 8
+N = 15812
+T = 101
+Elapsed wall-time (computational part): 40.4995 seconds
+Elapsed wall-time (total): 43.2806 seconds
+*** running with 4 threads/process, 3 processes and dx = 8.944271909999159e-05 ***
+Number of processes: 3
+Number of threads/process 4
+N = 11181
+T = 101
+Elapsed wall-time (computational part): 36.4521 seconds
+Elapsed wall-time (total): 37.8477 seconds
+*** running with 2 threads/process, 3 processes and dx = 0.00012649110640673518 ***
+Number of processes: 3
+Number of threads/process 2
+N = 7906
+T = 101
+Elapsed wall-time (computational part): 34.0385 seconds
+Elapsed wall-time (total): 34.7362 seconds
+*** running with 1 threads/process, 3 processes and dx = 0.00017888543819998318 ***
+Number of processes: 3
+Number of threads/process 1
+N = 5591
+T = 101
+Elapsed wall-time (computational part): 33.6861 seconds
+Elapsed wall-time (total): 34.0382 seconds
+Test finished wih success

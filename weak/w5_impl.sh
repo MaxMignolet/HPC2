@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=w5_impl
-#SBATCH --time=00:05:00 # hh:mm:ss
+#SBATCH --time=00:10:00 # hh:mm:ss
 #SBATCH --ntasks=5 #number of MPI processes
 #SBATCH --cpus-per-task=24
 #SBATCH --mem-per-cpu=3970 # megabytes
