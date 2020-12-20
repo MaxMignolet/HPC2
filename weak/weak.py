@@ -21,7 +21,6 @@ def modifFile(dt, dx, end_time, Du, Dv, f, k, r_treshold, sampling, param_file):
             file.write(str(param[i]) + '\n')
 
 dt = 1e-2
-dx_240 = 1e-5 # dx for 10 nodes and 24 threads/process, total time of ~3-4 min
 end_time = 1
 Du = 1e-5
 Dv = 4e-6
@@ -30,10 +29,15 @@ k = 0.06
 r_treshold = 1e-5
 sampling = 0
 
+reso_scheme = int(sys.argv[3])
+if reso_scheme == 0:
+    dx_240 = 1e-4 # dx for 10 nodes and 24 threads/process, total time of ~3-4 min (explicit scheme)
+elif reso_scheme == 1:
+    dx_240 = 2.5e-5 # (implicit scheme)
+
 nProcess = int(sys.argv[1])
 param_file = sys.argv[2]
-# nThreads = np.array([24, 20, 16, 12, 8, 4, 2, 1])
-nThreads = np.array([4, 2, 1])
+nThreads = np.array([24, 20, 16, 12, 8, 4, 2, 1])
 
 dx = dx_240 / np.sqrt(nThreads * nProcess / 240)
 
