@@ -1,0 +1,11 @@
+World size: 4
+Sampling: 100000
+N = 101
+T = 100001
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Elapsed wall-time (computational part): 43.2222 seconds
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time (total): 43.2247 seconds

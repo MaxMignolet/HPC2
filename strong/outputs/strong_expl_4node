@@ -1,0 +1,56 @@
+-The number of threads is 24-
+Number of processes: 4
+Number of threads/process 24
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 4.6154 seconds
+Elapsed wall-time (total): 5.4431 seconds
+-The number of threads is 20-
+Number of processes: 4
+Number of threads/process 20
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 5.6591 seconds
+Elapsed wall-time (total): 6.4919 seconds
+-The number of threads is 16-
+Number of processes: 4
+Number of threads/process 16
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 6.6888 seconds
+Elapsed wall-time (total): 7.5222 seconds
+-The number of threads is 12-
+Number of processes: 4
+Number of threads/process 12
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 8.9254 seconds
+Elapsed wall-time (total): 9.7888 seconds
+-The number of threads is 8-
+Number of processes: 4
+Number of threads/process 8
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 12.5331 seconds
+Elapsed wall-time (total): 13.3640 seconds
+-The number of threads is 4-
+Number of processes: 4
+Number of threads/process 4
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 22.8753 seconds
+Elapsed wall-time (total): 23.7557 seconds
+-The number of threads is 2-
+Number of processes: 4
+Number of threads/process 2
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 43.8278 seconds
+Elapsed wall-time (total): 44.6603 seconds
+-The number of threads is 1-
+Number of processes: 4
+Number of threads/process 1
+N = 10001
+T = 101
+Elapsed wall-time (computational part): 83.1605 seconds
+Elapsed wall-time (total): 83.9933 seconds

@@ -1,0 +1,88 @@
+-The number of threads is 24-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 2.5518 seconds
+-The number of threads is 20-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 2.7852 seconds
+-The number of threads is 16-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 3.1633 seconds
+-The number of threads is 12-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 3.8513 seconds
+-The number of threads is 8-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 5.4112 seconds
+-The number of threads is 4-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 10.0555 seconds
+-The number of threads is 2-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 19.0153 seconds
+-The number of threads is 1-
+World size: 10
+Sampling: 0
+N = 10001
+T = 101
+Entering explicit resolution
+Exiting explicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 34.9980 seconds

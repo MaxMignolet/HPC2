@@ -1,0 +1,18 @@
+-The number of threads is 24-
+World size: 9
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+slurmstepd: error: *** JOB 69371232 ON lm3-w003 CANCELLED AT 2020-12-16T16:57:11 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[43034,0],0] on node lm3-w003
+  Remote daemon: [[43034,0],1] on node lm3-w013
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------

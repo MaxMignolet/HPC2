@@ -1,0 +1,88 @@
+-The number of threads is 24-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 31.5263 seconds
+-The number of threads is 20-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 37.6582 seconds
+-The number of threads is 16-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 44.3956 seconds
+-The number of threads is 12-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 56.9925 seconds
+-The number of threads is 8-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 83.6519 seconds
+-The number of threads is 4-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 156.4967 seconds
+-The number of threads is 2-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 298.0972 seconds
+-The number of threads is 1-
+World size: 1
+Sampling: 0
+N = 5001
+T = 101
+Entering semi-implicit resolution
+Exiting semi-implicit resolution scheme
+Freeing memory.
+Memory freed.
+Exiting program..
+Elapsed wall-time: 590.4190 seconds

@@ -1,0 +1,17 @@
+Those files were obtained with the following parameters:
+
+end time = 1e5
+1e-05
+2e-06
+0.04
+0.06
+1e-05
+0
+
+using an explicit scheme
+
+file naming:
+u_75_0.01_.dat
+
+75 is the number of nodes along one direction
+0.01 is the courant number defined as max(Du, Dv) * dt / dx^2

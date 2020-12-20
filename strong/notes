@@ -1,0 +1,48 @@
+--Expl--
+
+1 node
+24 cpu/node; 0.005, 0.005, 100 => 2.9 s
+1  cpu/node; 0.005, 0.005, 100 => 25 s
+1  cpu/node; 0.01, 0.0001, 100 => 810 s = 7.33 hr
+
+2 nodes
+24 cpu/node; 0.005, 0.005, 100 => 1.9 s
+
+4 nodes
+24 cpu/node; 0.005, 0.005, 100 => 1.6 s
+24 cpu/node; 0.005, 0.0001, 100 => 768 s = 12.8 min
+
+10 nodes
+24 cpu/node; 0.01, 0.0001, 100 => 172 s = 2.87 min (1)
+4  cpu/node; 0.01, 0.0001, 100 => 810 s = 13.5 min
+1  cpu/node; 0.01, 0.00002, 1 => *** s = ~12 min
+
+
+--Impl--
+
+4 nodes
+24 cpus/node: 0.01, 0.0005, 100 => 467 s = 7.78 min
+12 cpus/node: 0.01, 0.0005, 100 => 530 s = 8.83 min
+
+-----------------------------------------------------
+rather do 100 time iterations => restart
+and objective time of 1 seconds
+
+--Expl--
+
+10 nodes
+1  cpu/node; 0.01, 0.00001, 1 => 35 s
+24 cpu/node; 0.01, 0.00001, 1 => 2.47 s
+
+--Impl--
+
+10 nodes
+1  cpu/node; 0.01, 0.0001, 1 => 396.2 s
+24 cpu/node; 0.01, 0.0001, 1 => 22.77 s
+24 cpu/node; 0.01, 0.0002, 1 => ~5.5 s
+1  cpu/node; 0.01, 0.0002, 1 => ~99 s
+
+
+************
+tests lancés pour expl, reste juste à lancer impl
+pour stabilité, tests lancés
