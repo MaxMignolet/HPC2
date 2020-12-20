@@ -14,4 +14,4 @@ export reso_scheme=0
 export param_file=weak.txt
 export nbProcess=$SLURM_NTASKS
 echo "calling the python script"
-python3 weak.py $SLURM_NTASKS
+python3 weak.py $SLURM_NTASKS $param_file

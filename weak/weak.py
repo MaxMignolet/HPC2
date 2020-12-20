@@ -4,7 +4,7 @@ import os
 import sys
 
 # modify stability.txt
-def modifFile(dt, dx, end_time, Du, Dv, f, k, r_treshold, sampling):
+def modifFile(dt, dx, end_time, Du, Dv, f, k, r_treshold, sampling, param_file):
     nbParam = 9
     param = [0] * nbParam
     param[0] = dt
@@ -16,7 +16,7 @@ def modifFile(dt, dx, end_time, Du, Dv, f, k, r_treshold, sampling):
     param[6] = k
     param[7] = r_treshold
     param[8] = int(sampling)
-    with open("stability.txt", "w") as file:
+    with open(param_file, "w") as file:
         for i in range(nbParam):
             file.write(str(param[i]) + '\n')
 
@@ -31,13 +31,14 @@ r_treshold = 1e-5
 sampling = 0
 
 nProcess = int(sys.argv[1])
+param_file = sys.argv[2]
 # nThreads = np.array([24, 20, 16, 12, 8, 4, 2, 1])
 nThreads = np.array([4, 2, 1])
 
 dx = dx_240 * np.sqrt(nThreads * nProcess / 240)
-
+print(dx)
 for i in range(len(nThreads)):
-        modifFile(dt, dx[i], end_time, Du, Dv, f, k, r_treshold, sampling)
+        modifFile(dt, dx[i], end_time, Du, Dv, f, k, r_treshold, sampling, param_file)
         run(["echo", "*** running with " + str(nThreads[i]) + " threads/process and dx = "  + str(dx[i]) + " ***"])
         os.environ["OMP_NUM_THREADS"] = str(nThreads[i])
         run("./run.sh")

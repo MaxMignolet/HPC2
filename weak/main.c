@@ -134,7 +134,6 @@ int main(int argc, char** argv){
         }
     }
 
-    if(rank == 0){fprintf(stderr, "Init condition");}
     //initial conditions
     for(xi = 0; xi < n_y; xi++){
         // conversion from local coords to global
@@ -160,7 +159,6 @@ int main(int argc, char** argv){
     if(rank == 0){start_time_comp = MPI_Wtime();}
 
     if(resolution_scheme == 0){ // explicit euler scheme
-        if(rank == 0){fprintf(stderr, "Entering explicit reoslution");}
         // temporary variables for solving the problem
         // u_prev -> solution for u at time t-1
         // u_new  -> solution for u at time t
@@ -201,7 +199,6 @@ int main(int argc, char** argv){
         double** temp;
 
         for(t = 1; t <= T; t++){
-            if(rank == 0){fprintf(stderr, "Computing time step %d", t);}
             // computing inner of chunk
             #pragma omp parallel for collapse(2)\
                     private(u_middle, u_below, u_above, u_left, u_right,\
